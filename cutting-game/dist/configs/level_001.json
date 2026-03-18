@@ -1,0 +1,47 @@
+{
+  "LevelID": "LV_001",
+  "TimeLimit": 60.0,
+  "TotalLayers": 3,
+  "Layers": [
+    {
+      "LayerIndex": 1,
+      "Enemies": [
+        {
+          "EnemyID": "enemy_light_001",
+          "StartLane": 1,
+          "CustomHitbox": null
+        },
+        {
+          "EnemyID": "enemy_light_001",
+          "StartLane": 4,
+          "CustomHitbox": null
+        }
+      ]
+    },
+    {
+      "LayerIndex": 2,
+      "Enemies": [
+        {
+          "EnemyID": "enemy_heavy_001",
+          "StartLane": 2,
+          "CustomHitbox": null
+        },
+        {
+          "EnemyID": "enemy_heavy_001",
+          "StartLane": 3,
+          "CustomHitbox": null
+        }
+      ]
+    },
+    {
+      "LayerIndex": 3,
+      "Enemies": [
+        {
+          "EnemyID": "boss_daimyo_001",
+          "StartLane": 2,
+          "CustomHitbox": null
+        }
+      ]
+    }
+  ]
+}

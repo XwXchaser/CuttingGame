@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3d7e0c58-0a5e-474d-a022-c8c23682115e" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/cutting-game" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://diff.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://diff.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://diff.json" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3B1tKYhtgn6UIK6Jkzw7a72zHjk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "gh-pages",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "H:\\Project\\CuttingGames\\cutting-game\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="3d7e0c58-0a5e-474d-a022-c8c23682115e" name="更改" comment="" />
+      <created>1773668341275</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1773668341275</updated>
+      <workItem from="1773668342404" duration="1662000" />
+      <workItem from="1773750456377" duration="2035000" />
+      <workItem from="1773752636627" duration="1464000" />
+      <workItem from="1773754137854" duration="88000" />
+      <workItem from="1773754247184" duration="486000" />
+      <workItem from="1773754770056" duration="184000" />
+      <workItem from="1773754992788" duration="55000" />
+      <workItem from="1773755093063" duration="317000" />
+      <workItem from="1773755502129" duration="216000" />
+      <workItem from="1773755793615" duration="284000" />
+      <workItem from="1773756124371" duration="305000" />
+      <workItem from="1773756463134" duration="1438000" />
+      <workItem from="1773757952158" duration="12094000" />
+      <workItem from="1773801627415" duration="1094000" />
+      <workItem from="1773803430725" duration="1855000" />
+      <workItem from="1773805497599" duration="3396000" />
+    </task>
+    <task id="LOCAL-00001" summary="docs(plans): 这是一条测试信息，更新游戏开发计划中的游戏类型描述&#10;&#10;- 将游戏类型从&quot;伪 3D 卷轴动作游戏&quot;修改为&quot;3D 卷轴动作游戏&quot;&#10;- 保持了原有的4通道+动作打击的核心玩法描述&#10;- 更新了游戏类型的准确性表述">
+      <option name="closed" value="true" />
+      <created>1773803892348</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1773803892348</updated>
+    </task>
+    <task id="LOCAL-00002" summary="chore(types): 添加类型标记注释&#10;&#10;- 在 Types.ts 文件中添加了类型标记注释&#10;- 为 Vite HMR 兼容性保留运行时类型标记">
+      <option name="closed" value="true" />
+      <created>1773804074956</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1773804074956</updated>
+    </task>
+    <task id="LOCAL-00003" summary="chore(types): 更新类型定义中的注释标记&#10;&#10;- 修改了 TYPE_MARKERS 注释末尾的标点符号，从 &quot;this is a this message&quot; 变更为 &quot;this is a this message!&quot;">
+      <option name="closed" value="true" />
+      <created>1773804129887</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1773804129887</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="javascript:npm:vite" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="first commit" />
+    <MESSAGE value="docs(plans): 这是一条测试信息，更新游戏开发计划中的游戏类型描述&#10;&#10;- 将游戏类型从&quot;伪 3D 卷轴动作游戏&quot;修改为&quot;3D 卷轴动作游戏&quot;&#10;- 保持了原有的4通道+动作打击的核心玩法描述&#10;- 更新了游戏类型的准确性表述" />
+    <MESSAGE value="chore(types): 添加类型标记注释&#10;&#10;- 在 Types.ts 文件中添加了类型标记注释&#10;- 为 Vite HMR 兼容性保留运行时类型标记" />
+    <MESSAGE value="chore(types): 更新类型定义中的注释标记&#10;&#10;- 修改了 TYPE_MARKERS 注释末尾的标点符号，从 &quot;this is a this message&quot; 变更为 &quot;this is a this message!&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(types): 更新类型定义中的注释标记&#10;&#10;- 修改了 TYPE_MARKERS 注释末尾的标点符号，从 &quot;this is a this message&quot; 变更为 &quot;this is a this message!&quot;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

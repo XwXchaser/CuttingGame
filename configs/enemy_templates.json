@@ -1,0 +1,50 @@
+[
+  {
+    "ID": "enemy_heavy_001",
+    "Name": "重装战士",
+    "BaseHP": 100.0,
+    "LaneWidth": 1,
+    "WeaknessType": "SLASH",
+    "DamageMult_Slash": 2.0,
+    "DamageMult_Shoot": 1.0,
+    "Hitbox_Default": {
+      "OffsetX": 0.1,
+      "OffsetY": 0.1,
+      "Width": 0.8,
+      "Height": 0.8
+    },
+    "Speed": 2.0
+  },
+  {
+    "ID": "enemy_light_001",
+    "Name": "轻装武士",
+    "BaseHP": 50.0,
+    "LaneWidth": 1,
+    "WeaknessType": "SHOOT",
+    "DamageMult_Slash": 1.0,
+    "DamageMult_Shoot": 2.0,
+    "Hitbox_Default": {
+      "OffsetX": 0.1,
+      "OffsetY": 0.1,
+      "Width": 0.8,
+      "Height": 0.8
+    },
+    "Speed": 3.0
+  },
+  {
+    "ID": "boss_daimyo_001",
+    "Name": "BOSS 大名",
+    "BaseHP": 500.0,
+    "LaneWidth": 2,
+    "WeaknessType": "NONE",
+    "DamageMult_Slash": 1.0,
+    "DamageMult_Shoot": 1.0,
+    "Hitbox_Default": {
+      "OffsetX": 0.0,
+      "OffsetY": 0.0,
+      "Width": 1.0,
+      "Height": 1.0
+    },
+    "Speed": 1.5
+  }
+]
