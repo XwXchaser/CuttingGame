@@ -79,7 +79,7 @@ export class EnemyBase {
   }
 
   /** 更新敌人方向，使其垂直于滚筒表面 */
-  public updateOrientation(radius: number = 10): void {
+  public updateOrientation(_radius: number = 10): void {
     // 计算敌人在圆柱表面的法线方向
     const pos = this.mesh.position;
     

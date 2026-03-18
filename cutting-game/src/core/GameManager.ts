@@ -1,11 +1,10 @@
-import * as THREE from 'three';
 import { CylinderWorld } from '../scene/CylinderWorld';
-import { InputManager, InputEvent, SlashEventData, ClickEventData, AttackType } from './InputManager';
+import { InputManager, InputEvent, SlashEventData, ClickEventData } from './InputManager';
 import { LayerSystem } from '../combat/LayerSystem';
 import { ConfigManager } from '../data/ConfigManager';
 import type { CombatConfig } from '../data/Types';
 import { GameStateValue } from '../data/Types';
-import { AttackSystem, AttackResult } from '../combat/Attack/AttackSystem';
+import { AttackSystem } from '../combat/Attack/AttackSystem';
 
 /**
  * 游戏管理器
@@ -24,7 +23,6 @@ export class GameManager {
   // 游戏状态
   private gameState: string = 'IDLE';
   private timeRemaining: number = 0;
-  private currentLevelID: string = '';
   
   // 战斗配置
   private combatConfig: CombatConfig | null = null;
@@ -94,8 +92,6 @@ export class GameManager {
       return false;
     }
     
-    this.currentLevelID = levelID;
-    
     // 初始化层级系统
     if (this.layerSystem) {
       this.layerSystem.initialize(levelConfig.Layers);
@@ -121,10 +117,10 @@ export class GameManager {
     
     switch (event.type) {
       case 'SHOOT':
-        this.handleShoot(event);
+        this.handleShoot(event as ClickEventData);
         break;
       case 'SLASH':
-        this.handleSlash(event);
+        this.handleSlash(event as SlashEventData);
         break;
     }
   }

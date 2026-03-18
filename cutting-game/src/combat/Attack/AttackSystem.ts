@@ -16,11 +16,9 @@ export interface AttackResult {
 export class AttackSystem {
   private combatConfig: CombatConfig;
   private readonly scene: THREE.Scene;
-  private readonly camera: THREE.Camera;
 
-  constructor(scene: THREE.Scene, camera: THREE.Camera, combatConfig: CombatConfig) {
+  constructor(scene: THREE.Scene, _camera: THREE.Camera, combatConfig: CombatConfig) {
     this.scene = scene;
-    this.camera = camera;
     this.combatConfig = combatConfig;
   }
 
@@ -60,8 +58,6 @@ export class AttackSystem {
       
       // 使用 Box3 进行包围盒检测
       const enemyBox = new THREE.Box3();
-      const halfWidth = hitbox.Width / 2;
-      const halfHeight = hitbox.Height / 2;
       enemyBox.setFromCenterAndSize(
         enemyCenter,
         new THREE.Vector3(hitbox.Width, hitbox.Height, hitbox.Width)

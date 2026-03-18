@@ -1,6 +1,5 @@
-import * as THREE from 'three';
 import { EnemyBase } from './Enemy/EnemyBase';
-import type { LayerConfig, EnemyInstance } from '../data/Types';
+import type { LayerConfig } from '../data/Types';
 import { CylinderWorld } from '../scene/CylinderWorld';
 import { ConfigManager } from '../data/ConfigManager';
 

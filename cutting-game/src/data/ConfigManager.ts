@@ -18,14 +18,19 @@ export class ConfigManager {
   }
 
   /** 加载战斗配置 */
-  public async loadCombatConfig(): Promise<CombatConfig> {
+  public async loadCombatConfig(): Promise<CombatConfig | null> {
     if (this.combatConfig) {
       return this.combatConfig;
     }
 
-    const response = await fetch('/configs/combat_config.json');
-    this.combatConfig = await response.json();
-    return this.combatConfig;
+    try {
+      const response = await fetch('/configs/combat_config.json');
+      this.combatConfig = await response.json();
+      return this.combatConfig;
+    } catch (error) {
+      console.error('加载战斗配置失败:', error);
+      return null;
+    }
   }
 
   /** 获取战斗配置 */

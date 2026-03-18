@@ -1,5 +1,4 @@
 import * as THREE from 'three';
-import { AttackTypeValue } from '../data/Types';
 
 /** 攻击类型 */
 export type AttackType = 'SHOOT' | 'SLASH';
@@ -131,10 +130,8 @@ export class InputManager {
       return null;
     }
     
-    const ox = origin.x;
     const oy = origin.y;
     const oz = origin.z;
-    const dx = direction.x;
     const dy = direction.y;
     const dz = direction.z;
     
@@ -246,7 +243,7 @@ export class InputManager {
     }
   }
 
-  private onMouseUp(e: MouseEvent): void {
+  private onMouseUp(_e: MouseEvent): void {
     if (!this.isPointerDown) return;
     
     this.isPointerDown = false;
