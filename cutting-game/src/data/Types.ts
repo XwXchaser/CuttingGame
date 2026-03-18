@@ -3,6 +3,7 @@
 // Force recompile for Vite HMR - DO NOT REMOVE THIS COMMENT
 
 // Runtime type markers (for Vite HMR compatibility)
+// this is a this message
 export const __TYPE_MARKERS__ = {
   EnemyTemplate: 'EnemyTemplate',
   LayerConfig: 'LayerConfig',
