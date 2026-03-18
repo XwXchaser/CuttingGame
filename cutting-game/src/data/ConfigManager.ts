@@ -24,7 +24,7 @@ export class ConfigManager {
     }
 
     try {
-      const response = await fetch('/configs/combat_config.json');
+      const response = await fetch('configs/combat_config.json');
       this.combatConfig = await response.json();
       return this.combatConfig;
     } catch (error) {
@@ -44,7 +44,7 @@ export class ConfigManager {
       return this.enemyTemplates;
     }
 
-    const response = await fetch('/configs/enemy_templates.json');
+    const response = await fetch('configs/enemy_templates.json');
     const templates: EnemyTemplate[] = await response.json();
     
     for (const template of templates) {
@@ -69,7 +69,7 @@ export class ConfigManager {
     try {
       // 将 LV_001 转换为 level_001.json
       const fileName = levelID.toLowerCase().replace('lv_', 'level_') + '.json';
-      const response = await fetch(`/configs/${fileName}`);
+      const response = await fetch(`configs/${fileName}`);
       
       if (!response.ok) {
         console.warn(`关卡配置不存在：${fileName}`);
