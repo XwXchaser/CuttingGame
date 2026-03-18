@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  touch-action: none; /* 禁用默认触摸行为 */
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: transparent; /* 确保背景透明，让 3D 场景显示 */
+  z-index: 0; /* 确保 Canvas 在 UI 层下方 */
+}
+
+/* Canvas 样式 */
+#app canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* Canvas 在 #app 内部的最底层 */
+}
+
+/* UI 层 */
+#ui-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* 让点击穿透到 Canvas */
+  z-index: 2; /* UI 层在 Canvas 上方 */
+}
+
+/* 倒计时 */
+#timer {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: 'Arial', sans-serif;
+}
+
+/* 层级指示器 */
+#layer-indicator {
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  font-family: 'Arial', sans-serif;
+}
+
+/* 游戏结束画面 */
+#game-over-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+  pointer-events: auto;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+#game-over-screen.visible {
+  opacity: 1;
+}
+
+#game-over-screen h1 {
+  font-size: 72px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+#game-over-screen.victory h1 {
+  color: #4ade80;
+}
+
+#game-over-screen.defeat h1 {
+  color: #f87171;
+}
+
+#game-over-screen button {
+  padding: 15px 40px;
+  font-size: 24px;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#game-over-screen button:hover {
+  background: #2563eb;
+}

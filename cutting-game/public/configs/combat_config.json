@@ -1,0 +1,20 @@
+{
+  "Player_Damage_Slash": 25.0,
+  "Player_Damage_Shoot": 20.0,
+  "Hitbox_Settings": {
+    "Slash_Base_Range": 0.3,
+    "Shoot_Base_Range": 0.15,
+    "Enable_Multi_Hit": true
+  },
+  "Feedback_Settings": {
+    "HP_Bar_Duration": 0.5,
+    "HP_Bar_Refresh": true
+  },
+  "Boss_QTE_Settings": {
+    "Interval_Min": 3.0,
+    "Interval_Max": 6.0,
+    "Duration_Min": 2.0,
+    "Duration_Max": 3.0,
+    "Crit_Multiplier": 2.0
+  }
+}
